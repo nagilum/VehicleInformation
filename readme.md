@@ -3,7 +3,7 @@
 Query and parse vehicle information from the Norwegian Vegvesen website.
 
 ```csharp
-var dict = VehicleInformation.Query('VH15836');
+var dict = VehicleInformation.Query("VH15836");
 ```
 
 This will return a `Dictionary<string, Dictionary<string, string>>` object containing all public data about the vehicle.
